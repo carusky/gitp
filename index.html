@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+    'use strict'
+    // let acc;
+    // let name=prompt('Official name of js','')
+    // let a=(name=='ECMAScript')?alert('Right'):
+    // alert("Didn't know? ECMAScript");
+
+    // let a=prompt('Your number','')
+    // let b= (a>0)?alert('1'):
+    // (a<0)?alert('-1'):
+    // (a==0)?alert('0'):''
+
+    // let login = prompt('Login')
+    // let b=(login=='Employee')
+    // ?alert('Hello')
+    // :(login=='Director')
+    // ?alert('Greetings')
+    // :(login=='')
+    // ?alert('No login')
+    // :alert('Psycho🤦')
+
+    // let a=prompt('Your age');
+    // let b=(a>=10 && a<=90)?alert('Valid')
+    // :alert('Invalid')
+
+//     let userName = prompt("Who's there?", '');
+// if (userName == 'Admin') {
+// let pass = prompt('Password?', '');
+// if (pass == 'TheMaster') {
+// alert( 'Welcome!' );
+// } else if (pass == '' || pass == null) {
+// alert( 'Canceled.' );
+// } else {
+// alert( 'Wrong password' );
+// }}
+// else if (userName == '' || userName == null) {
+// alert( 'Canceled' );
+// } else {
+//     alert( "I don't know you" );
+// }
+
+// while loop
+// do wh
+// for loop
+// let i = 3;
+// while (i) {
+// alert( i-- );
+// }
+    // for (let a = 2; a <=10 ; a++){
+    //     if (a%2==0) {
+    //         alert(a)
+    //     }
+    // }
+
+    // let i=4
+    // while (i<3) {
+    //     alert('number $(i)');
+    //     i++
+    // }
+  
+//let num;
+// do {
+// num = prompt("Enter a number greater than 100?", 0);
+// } while (num <= 100 && num);
+
+// switch
+// let a = 2 + 2;
+// switch (a) {
+// case 3:
+// alert( 'Too small' );
+// break;
+// case 4:
+// alert( 'Exactly!' );
+// break;
+// case 5:
+// alert( 'Too large' );
+// break;
+// default:
+// alert( "I don't know such values" );
+// }
+
+// let b='Edge';
+// if (b=='Edge') {
+//     alert("you've got the edge")}
+// else if(b=='chrome'||'firefox'||'safari'||'opera')
+// {alert('okay we support them')}
+// else
+// {alert('we hope this looks ok')}
+
+// let a= +prompt('a?','');
+// switch(a){
+//     case 0:
+//         alert(0);
+//         break;
+//     case 1:
+//         alert(1)
+//         break;
+//     case 2:
+//     case 3:
+//         alert('2,3');
+//         break
+// }
+
+// Functions
+// function checkage(age) {
+//     let b=(age>18)
+//     ?alert(true):confirm('Are you allowed')
+// }
+// checkage(prompt('Your age'))
+// function showpow(x,n){
+//       alert(Math.pow(x,n))
+// }
+// showpow(prompt('x'),prompt('n'))
+
+// Arrow
+// let ask=(ques,yes,no)=>{
+//     (confirm(ques))?yes() :no()
+    
+// }
+// ask(('Do you agree'),
+// ()=>alert('agreed'),
+// ()=>alert('canceled'))
+
+// function pow(x, n){
+// let result = 1;
+
+// for(let i = 0; i < n; i++) {
+//     result *= x;
+// }
+
+// return result;
+// }
+
+// let x = prompt("x?", ''); 
+// n = prompt("n?",'');
+
+// if (n<=0){
+// alert(`Power ${n} is not supported, please 
+// enter an integer number greater than zero`);
+// }else{
+// alert(pow(x, n));
+// }
+
+// let a=(prompt('a'))
+// if (a%2==1&&a) {
+//     alert(a)
+// }
+
+// Behaviour Driven Development(BDD)
+// describe('pow',function(){
+//     it('raises to nth power', function(){
+//         assert.equal(pow(2, 3), 8);
+//         assert.equal(pow(3, 4), 81);
+//     });
+// });
+
+// let info={
+//     name :'ama',
+// }
+// alert(info.name)
+
+// let user = {
+// name: "John",
+// age: 30
+// };
+// let key = prompt(
+//     "What do you want to know about the user?",
+//      "name"
+//     );
+//     alert(user[key])
+
+// let ob = {
+//     'name':'ike',
+//     age:18
+// }
+// alert('age' in ob)
+
+// For in loop
+// let obj = {
+//     "name":"Ama",
+//     "sex":"female",
+//     "Address":"kantamanto"
+// };
+// for (let key in obj) {
+//     alert( key )
+//     alert(obj[key])
+// }
+// let clone = {age:18};
+// let user = { name: "John" };
+// // for(let key in user){
+// //     clone[key] = user[key];
+// // clone['name']='Kwame'
+// // }       OR
+// clone = Object.assign({},user)
+// clone['name']='Kwame'
+// alert(clone['name'])
+// alert(user['name'])
+
+// let sym = Symbol('id')
+// let info = {
+//     'name':'James'
+// }
+// info[sym]='id value';
+// alert(info[sym])
+// info['age'] = 10
+// alert(info['age'])
+
+// The this method
+let user = {
+    'name':prompt('your name'),
+    'age':prompt('your age')
+}
+alert('Hey '+user.name+' you are '+user.age+' years old' )
+let b=(user.age>=18)?confirm('You ready'):null
+
+
+
+
+
+
+    </Script>
+</body>
+</html>
